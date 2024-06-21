@@ -12,10 +12,14 @@ There are 3 categories of information captures by the app.
 
 ### Crash logs
 
+NOTE: The below features are planned, but not yet implemented. Currently the app does not collect any user data.
+
 These are anonymous records of crashes that occur in the app. These logs are used to identify and fix bugs in the app.
 They contain no personal information.
 
 ### Tracking data
+
+NOTE: The below features are planned, but not yet implemented. Currently the app does not collect any user data.
 
 The app collects anonymous usage data to learn how users interact with the app and help improve its UX. This data might include the following:
 
@@ -48,6 +52,8 @@ When this information is submitted, the user can choose to provide their identit
 - their request is more likely to be addressed (less likely to be considered spam)
 
 ## Sharing of data with 3rd party services
+
+User data is only shared with our technology providers (AWS, Sentry) and only for operational reasons. 
 
 The app's backend is hosted on [AWS](http://aws.amazon.com/console/). No user data is persisted besides the AWS cloud.
 
